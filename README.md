@@ -1,4 +1,8 @@
 # WanLaoBot_Dash
-万老附中上流人士的专属群Bot
+Bot_Dash
 
-使用NoneBot框架快速构建的一个qqbot
+使用NoneBot框架快速构建的一个QQbot
+
+基于Telegram API开发文档实现的一个Tgbot
+
+
