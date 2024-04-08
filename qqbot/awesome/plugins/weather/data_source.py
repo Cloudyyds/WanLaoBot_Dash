@@ -9,7 +9,7 @@ async def get_weather_of_city(city: str) -> str:
     api_url = 'http://apis.juhe.cn/simpleWeather/query'
     params_dict = {
         "city": city,  # 查询天气的城市名称，如：北京、苏州、上海
-        "key": "c6dd1e27cb8ef726552fdb01c39eed0b",  # 您申请的接口API接口请求Key
+        "key": "apikey",  # 您申请的接口API接口请求Key
     }
     params = urllib.parse.urlencode(params_dict)
     try:
