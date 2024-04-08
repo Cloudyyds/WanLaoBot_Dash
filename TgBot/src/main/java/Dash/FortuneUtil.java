@@ -7,7 +7,7 @@ import okhttp3.Response;
 
 public class FortuneUtil {
 
-    private static final String KEY = "2647bfe97d1f0106c93972a9e2a3672a";
+    private static final String KEY = "apikey";
     private static final String URL = "http://web.juhe.cn/constellation/getAll";
 
     public static String getFortune(String constellation) throws Exception {
