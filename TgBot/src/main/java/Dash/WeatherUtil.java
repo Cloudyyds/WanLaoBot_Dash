@@ -6,7 +6,7 @@ import okhttp3.*;
 public class WeatherUtil {
 
     private static final String API_URL = "http://apis.juhe.cn/simpleWeather/query";
-    private static final String KEY = "c6dd1e27cb8ef726552fdb01c39eed0b";
+    private static final String KEY = "apikey";
 
     public static String getWeather(String city) throws Exception {
         OkHttpClient client = new OkHttpClient();
