@@ -23,7 +23,7 @@ async def get_fortune_of_cons(constellation: str) -> str:
     headers ={"Content-Type": "application/x-www-form-urlencoded"}
     url = "http://web.juhe.cn/constellation/getAll"
     params = {
-        "key":"2647bfe97d1f0106c93972a9e2a3672a", # 在个人中心->我的数据,接口名称上方查看
+        "key":"apikey", # 在个人中心->我的数据,接口名称上方查看
         "consName":constellation, # 星座名称，如:狮子座
         "type":"today", # 运势类型：today,tomorrow,week,month,year    
     }
@@ -45,7 +45,7 @@ async def get_fortune_of_cons(constellation: str) -> str:
         return "请求失败"
 
     mparams = {
-        "key":"2647bfe97d1f0106c93972a9e2a3672a", # 在个人中心->我的数据,接口名称上方查看
+        "key":"apikey", # 在个人中心->我的数据,接口名称上方查看
         "consName":constellation, # 星座名称，如:狮子座
         "type":"tomorrow", # 运势类型：today,tomorrow,week,month,year    
     }
@@ -67,7 +67,7 @@ async def get_fortune_of_cons(constellation: str) -> str:
         return "请求失败"
 
     wparams = {
-        "key":"2647bfe97d1f0106c93972a9e2a3672a", # 在个人中心->我的数据,接口名称上方查看
+        "key":"apikey", # 在个人中心->我的数据,接口名称上方查看
         "consName":constellation, # 星座名称，如:狮子座
         "type":"week", # 运势类型：today,tomorrow,week,month,year    
     }
