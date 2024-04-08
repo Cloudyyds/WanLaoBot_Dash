@@ -17,8 +17,8 @@ import java.util.Arrays;
 public class ExecBot extends TelegramLongPollingBot {
 
     //填你自己的token和username
-    private String token ="6653008526:AAGUPSEbyKq_3_Xl8-xv_QOMqixdALa3iJE";
-    private String username ="WanLaoBot";
+    private String token ="tgbottoken";
+    private String username ="tgbotname";
     private boolean weather = false;
     private boolean fortune = false;
     private boolean picture = false;
