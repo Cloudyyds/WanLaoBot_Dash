@@ -44,7 +44,7 @@ async def get_answer(content: str) -> str:
         ]
         })
     headers = {
-        'Authorization': 'Bearer sk-cPg78eWihlywNzom9CmVvsmCi20pljX546ZOApOyt0i5r609',
+        'Authorization': 'gptfree key',
         'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
         'Content-Type': 'application/json'
     }
